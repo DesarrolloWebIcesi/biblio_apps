@@ -1,0 +1,24 @@
+/* 
+    Document   : blognews
+    Created on : 8/06/2010, 02:57:00 PM
+    Author     : 1130619373
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+#blognews{
+    width: 100%;
+}
+.blog_post{}
+.post_header{}
+.post_title{}
+.post_date{}
+.post_content{}

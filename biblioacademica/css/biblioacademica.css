@@ -1,0 +1,43 @@
+/* 
+    Document   : biblioacademica
+    Created on : 17-abr-2013, 10:56:54
+    Author     : David Andrés Manzano Herrera
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.area{
+    cursor: pointer;
+}
+.area h3 { margin: 0; padding: 0.4em; text-align: center; }
+#dataarea table{
+    width: 100%;
+}
+#backarea{
+    width: auto;
+    text-align: right;
+    cursor: pointer; 
+	float:right;
+}
+#backarea .ui-button-text{
+    font-size: 80%;
+}
+#selectedarea{
+    width: auto;
+    text-align: left;    
+}
+
+.areas_result{
+    /*padding: 77px 94px 55px 94px;*/
+}
+.areas_result .area{
+	font-size: 0.8em;
+}
+.areas_result .area:hover{
+	background: #DA822C;
+}
+
+.areas_result .area h3{
+    
+}
+

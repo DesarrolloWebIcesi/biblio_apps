@@ -1,0 +1,57 @@
+
+
+***********************************************************************
+Fatal NI connect error 12537, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=200.3.192.17)(PORT=1521))(CONNECT_DATA=(SID=BIBLIO)(CID=(PROGRAM=httpd)(HOST=starscream)(USER=icapp))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 24-JUL-2012 16:59:16
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12537
+    TNS-12537: Message 12537 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 507
+    TNS-00507: Message 507 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12537, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=200.3.192.17)(PORT=1521))(CONNECT_DATA=(SID=BIBLIO)(CID=(PROGRAM=httpd)(HOST=rodimus)(USER=icapp))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 24-JUL-2012 16:59:21
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12537
+    TNS-12537: Message 12537 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 507
+    TNS-00507: Message 507 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12537, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=200.3.192.17)(PORT=1521))(CONNECT_DATA=(SID=BIBLIO)(CID=(PROGRAM=httpd)(HOST=rodimus)(USER=icapp))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.3.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.3.0 - Production
+  Time: 24-JUL-2012 17:00:38
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12537
+    TNS-12537: Message 12537 not found; No message file for product=network, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 507
+    TNS-00507: Message 507 not found; No message file for product=network, facility=TNS
+    nt secondary err code: 0
+    nt OS err code: 0

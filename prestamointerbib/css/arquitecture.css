@@ -1,0 +1,27 @@
+/* 
+    Document   : arquitecture
+    Created on : 21/01/2011, 11:48:58 AM
+    Author     : David Andrés Manzano
+    Description:
+        Estilos relacionados con la maquetación de la página.
+*/
+
+
+#form_prestamo {
+    width: 100%;
+    display: block;
+}
+#user_data{
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: right;
+}
+.deletebook{
+    text-decoration: none;
+}
+.deletebook:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+

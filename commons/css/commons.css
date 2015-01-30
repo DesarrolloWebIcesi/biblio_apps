@@ -1,0 +1,208 @@
+/* 
+    Document   : commons
+    Created on : 20/10/2010, 05:15:14 PM
+    Author     : David Andrés Manzano Herrera - damanzano
+    Description:
+        Estilos comunes a todas las aplicaciones como por ejemplo los estilos de las barras de navegación.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+#biblio_apps{
+   
+}
+/*-----------------------------------------------------------------------------
+GENERALES DE LA APLICACIÓN
+------------------------------------------------------------------------------*/
+
+#app_info, .app_info{
+    padding: 5px;
+}
+#app_info span, .app_info span{
+    text-align: justify;
+}
+#app_form{
+    width: 100%;
+}
+#app_results, .app_results{
+    width: 100%;
+}
+.app_navigation{
+    width: 100%;
+}
+.app_navlinks{
+    width: 100%;
+    max-width: 100% !important;
+}
+.app_navigation table.app_navlinks > td{
+    text-align: left;
+}
+.app_navigation table.app_navlinks > td + td{
+    text-align: center;
+}
+.app_navigation table.app_navlinks > td + td + td{
+    text-align: right;
+}
+.app_navlink{
+    cursor: pointer;
+}
+.app_navlink_active{
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+.loader{
+    text-align: center;
+}
+label.error{
+    color:#ff0000;
+    font-weight: bold;
+    display: block;
+    font-weight: bold;
+}
+
+.subtitulo{
+    margin-top: 15px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+.resultitem{
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+}
+
+/*--------------------------------------------------------------
+ESPECIFICOS PARA NUEVAS ADQUISICIONES
+----------------------------------------------------------------*/
+.authors{
+    width: 100%;
+    display: block;
+}
+
+.copies{
+    width: 100%;
+    display: block;
+}
+
+/*--------------------------------------------------------------
+ESPECIFICOS PARA REVISTAS
+----------------------------------------------------------------*/
+
+.journal{
+    border: 1px solid #ccc;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.journal_image{
+    margin: 0;
+    padding: 0;
+    width: 25%;    
+    display: block;
+    float: left;
+    text-align: center;
+}
+.journal_image > div{
+    width: 100%;
+    height: 50px;
+    min-height: 50px !important;
+    display: block;
+}
+.journal_info{
+    margin: 0;
+    padding: 0 0 0 5px;
+    width: 70%;
+    float: left;
+    display: block;    
+}
+.journal_info_title{
+    width: 100%;
+    display: block;
+}
+.journal_info_issn{
+    width: 100%;
+    display: block;
+}
+.journal_info_emitions{
+    width: 100%;
+    display: block;
+}
+
+/*--------------------------------------------------------------
+ESPECIFICOS PARA MAPAS
+----------------------------------------------------------------*/
+
+.map{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.map_image{
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    display: block;
+    float: left;
+    text-align: center;
+}
+.map_image > div{
+    width: 100%;    
+    min-height: 50px !important;
+    display: block;
+}
+.map_info{
+    margin: 0;
+    padding: 0 0 0 5px;
+    width: 55%;
+    float: left;
+    display: block;
+}
+.map_info_title{
+    width: 100%;
+    display: block;
+    margin: 5px 0 10px 0;
+}
+.map_info_biblio{
+    width: 100%;
+    display: block;
+    text-align: justify;
+}
+
+/*------------------------------------------------------------------------------
+NUEVO
+------------------------------------------------------------------------------*/
+#app_info > table {
+    border: medium none;
+}
+
+#app_info td {
+    border-left: medium none;
+    border-right: medium none;
+    border-top: medium none;
+    padding: 3px 20px 5px 0;
+}
+
+#app_form > form {
+    margin: 10px 0 0;
+}
+
+#bdForm input {
+    float: right;
+    margin: -25px 60px 0 0;
+}
+
+.contenido {
+    font-family: 'Yanone Kaffeesatz',sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+

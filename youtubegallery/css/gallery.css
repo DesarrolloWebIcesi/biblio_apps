@@ -1,0 +1,149 @@
+/* 
+    Document   : gallery
+    Created on : 17/12/2010, 08:39:12 AM
+    Author     : 1130619373
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.wrapper{
+    font-family:Arial, Helvetica, sans-serif;
+  /*margin-top:20px;*/
+    margin-left:50px;
+  }
+
+  .wrapper h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:26px;
+  }
+
+  .galleryIDX{
+    text-align:center;
+    top:0;
+    left:0;
+    width:12%;
+    height:100%;
+    margin:auto;
+    position:absolute;
+  }
+
+  #galleryPlace{
+    position:absolute;
+    top:0;
+    width:88%;
+    left:12%;
+    height:100%;
+  }
+
+  #g1{
+  /*display:none;*/
+    position:relative;
+    margin-top:100px;
+    padding:30px;
+  }
+  #thumbs{
+    position:absolute;
+    top:200px;
+  }
+  #thumbs img{
+    padding:5px;
+    margin:5px;
+    -moz-box-shadow:#333 2px 2px 5px;
+    -webkit-box-shadow:#333 2px 2px 5px;
+    cursor:pointer;
+  }
+
+  .msg{
+    margin-left:30px;
+    font:16px/20px Arial, Helvetica, sans-serif;
+  }
+
+  .mbGallery .header table{
+    width:265px !important;
+  }
+  .mbGallery{
+    -moz-box-shadow:#333 2px 2px 5px;
+    -webkit-box-shadow:#333 2px 2px 5px;
+  }
+  .galleryCont{
+    display:none;
+  }
+  .descriptionBox{
+    font-size:10px;
+    background-color:#333333;
+    color:white;
+  }
+
+  .desc{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#000000;
+    font-size:14px;
+  }
+
+  .imgDesc{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#fff;
+    font-size:10px;
+  }
+
+
+  span.btn{
+    padding:10px;
+    margin-left:5px;
+    display:inline-block;
+    cursor:pointer;
+    font:12px/14px Arial, Helvetica, sans-serif;
+    color:#aaa;
+    background-color:#eee;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-box-shadow:#999 2px 0px 3px;
+    -webkit-box-shadow:#999 2px 0px 3px;
+  }
+  span.btn.pages{
+    background-color:#fff;
+  }
+  span.btn.pages:hover, span.btn.pages.sel {
+    background-color:#f3f3f3;
+    color:#999;
+  }
+  span.btn:hover, span.btn.sel{
+    background-color:#000;
+  }
+
+  .galleryIDX .btn{
+    padding:5px;
+    padding-top:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:#fff;
+    background:#333;
+    cursor:pointer;
+    -moz-box-sizing:content-box;
+    width:110px;
+    margin:auto;
+    margin-top:85px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+  }
+
+  .galleryIDX .btn img{
+    padding-bottom:15px;
+  }
+
+  .controls{
+    position:relative;
+    margin-top:100px;
+  }
+
+  #galleryInfo{
+    position:relative;
+    display:inline-block;
+    margin-top:20px;
+  }
+
